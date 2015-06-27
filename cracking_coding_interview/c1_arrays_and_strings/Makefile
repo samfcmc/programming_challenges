@@ -26,4 +26,5 @@ test: test_ex1
 all: ex1 ex2
 
 clean:
-	rm *.o $(EX1)
+	rm *.o $(EX1) $(EX2)
+
