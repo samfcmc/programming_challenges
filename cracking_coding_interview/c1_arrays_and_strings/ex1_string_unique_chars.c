@@ -30,7 +30,7 @@ int has_unique_chars(char *string) {
     int index = *c - FIRST_ASCII_CODE;
     int value = count[index];
     if(value) {
-      return !0;
+      return 0;
     }
     else {
       count[index]++;
@@ -38,7 +38,7 @@ int has_unique_chars(char *string) {
     }
   }
 
-  return 0;
+  return !0;
 
 }
 
